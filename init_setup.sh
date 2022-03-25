@@ -24,8 +24,8 @@ mkdir src && touch src/__init__.py src/main.py
 # git init
 echo [$(date)]: "Curl .gitignore for python"
 curl https://raw.githubusercontent.com/c17hawke/Pytorch-basics/main/.gitignore > .gitignore
-echo [$(date)]: "add env to gitignore"
-echo "env/" > .gitignore
+# echo [$(date)]: "add env to gitignore"
+# echo "env/" >> .gitignore
 echo "# ${PWD}" > README.md
 echo [$(date)]: "first commit"
 git add .
